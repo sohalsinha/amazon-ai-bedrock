@@ -7,16 +7,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @OpenAPIDefinition(
 		info = @Info(
-				title = "OPENAI API",
+				title = "BedrockConverseApplication API",
 				version = "1.0",
 				description = "API documentation for managing students"
 		)
 )
 @SpringBootApplication
-public class OpenaiApplication {
+public class BedrockConverseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OpenaiApplication.class, args);
+		SpringApplication.run(BedrockConverseApplication.class, args);
 	}
 
 }
